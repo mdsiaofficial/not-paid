@@ -3,6 +3,9 @@
 	/* change these variables as you wish */
 	var due_date = new Date('2017-02-27');
 	var days_deadline = 60;
+	
+	var body_opacity = 0.5;
+	document.getElementsByTagName("body")[0].style.opacity = body_opacity;
 	/* stop changing here */
 	
 	var current_date = new Date();
